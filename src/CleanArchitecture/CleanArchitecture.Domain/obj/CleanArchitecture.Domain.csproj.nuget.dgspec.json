@@ -39,11 +39,20 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "default"
         }
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "MediatR.Contracts": {
+              "target": "Package",
+              "version": "[2.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
