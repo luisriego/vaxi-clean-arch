@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "fszFutjt2ZApKVtOMEb7pDVH+8NnNTZ9SM8gM8/zZrXcsPEcKk9MSJKyY2R8RXemlUOcPCbOlodztNitUDDwFA==",
+  "dgSpecHash": "vWcr7XW5Bnv5uIMTIS7IoLYDJwucrb7ragS5I+f6fD0o3vrxmtNVfQyjNgfXxvH6sRKYERvP/r9tw785soLiqA==",
   "success": true,
-  "projectFilePath": "C:\\CleanArchitecture\\src\\CleanArchitecture\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj",
+  "projectFilePath": "C:\\Users\\EliTE\\dotnet\\vaxi-clean-arch\\src\\CleanArchitecture\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Luis\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512"
+    "C:\\Users\\EliTE\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512"
   ],
   "logs": []
 }

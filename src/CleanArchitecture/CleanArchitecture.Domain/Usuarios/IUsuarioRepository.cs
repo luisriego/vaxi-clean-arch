@@ -1,6 +1,6 @@
 namespace   CleanArchitecture.Domain.Usuarios;
 
-public interface IUserRepository
+public interface IUsuarioRepository
 {
     Task<Usuario?> GetByIdAsync(Guid id, CancellationToken cancellationToken = default);
     void Add(Usuario usuario);
