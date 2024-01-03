@@ -16,3 +16,5 @@ C:\Users\EliTE\dotnet\vaxi-clean-arch\src\CleanArchitecture\CleanArchitecture.In
 C:\Users\EliTE\dotnet\vaxi-clean-arch\src\CleanArchitecture\CleanArchitecture.Infrastructure\obj\Debug\net8.0\refint\CleanArchitecture.Infrastructure.dll
 C:\Users\EliTE\dotnet\vaxi-clean-arch\src\CleanArchitecture\CleanArchitecture.Infrastructure\obj\Debug\net8.0\CleanArchitecture.Infrastructure.pdb
 C:\Users\EliTE\dotnet\vaxi-clean-arch\src\CleanArchitecture\CleanArchitecture.Infrastructure\obj\Debug\net8.0\ref\CleanArchitecture.Infrastructure.dll
+C:\Users\EliTE\dotnet\vaxi-clean-arch\src\CleanArchitecture\CleanArchitecture.Infrastructure\bin\Debug\net8.0\CleanArchitecture.Infrastructure.runtimeconfig.json
+C:\Users\EliTE\dotnet\vaxi-clean-arch\src\CleanArchitecture\CleanArchitecture.Infrastructure\obj\Debug\net8.0\CleanArchitecture.Infrastructure.genruntimeconfig.cache
