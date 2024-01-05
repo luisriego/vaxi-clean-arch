@@ -1,4 +1,3 @@
-using CleanArchitecture.Domain.Abstractions;
 using CleanArchitecture.Domain.Vehiculos;
 
 namespace CleanArchitecture.Domain.Alquileres;

@@ -13,4 +13,10 @@ public sealed class ApplicationDbContext : DbContext, IUnitOfWork
     {
         throw new NotImplementedException();
     }
+
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+        modelBuilder.ApplyConfigurationsFromAssembly(typeof(ApplicationDbContext).Assembly);
+        base.OnModelCreating(modelBuilder);
+    }
 }

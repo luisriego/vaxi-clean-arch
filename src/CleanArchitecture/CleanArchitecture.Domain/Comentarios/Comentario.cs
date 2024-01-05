@@ -12,7 +12,7 @@ public sealed class Comentario : Entity
         Guid alquilerId,
         Guid userId,
         Clasificacion clasificacion,
-        Comentario comentarioTexto,
+        string comentarioTexto,
         DateTime? fechaCreacion
         
     ) : base(id)
@@ -33,14 +33,14 @@ public sealed class Comentario : Entity
 
     public Clasificacion Clasificacion { get; private set; }
 
-    public Comentario? ComentarioTexto { get; private set; }
+    public string? ComentarioTexto { get; private set; }
 
     public DateTime? FechaCreacion { get; private set; }
 
     public static Result<Comentario> Create(
         Alquiler alquiler,
         Clasificacion clasificacion,
-        Comentario comentarioTexto,
+        string comentarioTexto,
         DateTime? fechaCreacion
     )
     {
