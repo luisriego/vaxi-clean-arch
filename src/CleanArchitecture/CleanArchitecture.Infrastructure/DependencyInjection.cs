@@ -1,11 +1,14 @@
 using CleanArchitecture.Application.Abstractions.Clock;
+using CleanArchitecture.Application.Abstractions.Data;
 using CleanArchitecture.Application.Abstractions.Email;
 using CleanArchitecture.Domain.Abstractions;
 using CleanArchitecture.Domain.Alquileres;
 using CleanArchitecture.Domain.Usuarios;
 using CleanArchitecture.Domain.Vehiculos;
+using CleanArchitecture.Infrastructure.Data;
 using CleanArchitecture.Infrastructure.Email;
 using CleanArchitecture.Infrastructure.Repositories;
+using Dapper;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -34,6 +37,10 @@ public static class DependencyInjection
         services.AddScoped<IAlquilerRepository, AlquilerRepository>();
 
         services.AddScoped<IUnitOfWork>(sp => sp.GetRequiredService<ApplicationDbContext>());
+
+        services.AddSingleton<ISqlConnectionFactory>(sg => new SqlConnectionFactory(connectionString));
+
+        SqlMapper.AddTypeHandler(new DateOnlyTypeHandler());
 
         return services;
     }
