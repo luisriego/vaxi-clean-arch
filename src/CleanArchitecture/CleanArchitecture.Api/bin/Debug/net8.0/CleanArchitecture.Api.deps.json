@@ -8,7 +8,7 @@
     ".NETCoreApp,Version=v8.0": {
       "CleanArchitecture.Api/1.0.0": {
         "dependencies": {
-          "Bogus": "34.0.1",
+          "Bogus": "30.0.2",
           "CleanArchitecture.Application": "1.0.0",
           "CleanArchitecture.Infrastructure": "1.0.0",
           "Microsoft.AspNetCore.OpenApi": "8.0.0",
@@ -20,11 +20,11 @@
           "CleanArchitecture.Api.dll": {}
         }
       },
-      "Bogus/34.0.1": {
+      "Bogus/30.0.2": {
         "runtime": {
-          "lib/net6.0/Bogus.dll": {
-            "assemblyVersion": "34.0.1.0",
-            "fileVersion": "34.0.1.0"
+          "lib/netstandard2.0/Bogus.dll": {
+            "assemblyVersion": "30.0.2.0",
+            "fileVersion": "30.0.2.0"
           }
         }
       },
@@ -473,12 +473,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Bogus/34.0.1": {
+    "Bogus/30.0.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-49iq7QrD0wb7V4/FcK8p3dWdJxNUbojaqK9L6KRvdikIuRjt38EsNp7QXICcYdbYw01K8BHUdxlnTNn/YX3qDA==",
-      "path": "bogus/34.0.1",
-      "hashPath": "bogus.34.0.1.nupkg.sha512"
+      "sha512": "sha512-EhygcI3BnJZU1o6bQDmCaYg4WjvFpcmwUZO6UWdF72+0RF1rbXRVh9vTaev0TEszsrtlnd2W5QEK7x4xZiw3EQ==",
+      "path": "bogus/30.0.2",
+      "hashPath": "bogus.30.0.2.nupkg.sha512"
     },
     "Dapper/2.1.15": {
       "type": "package",

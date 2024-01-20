@@ -54,7 +54,7 @@
           "dependencies": {
             "Bogus": {
               "target": "Package",
-              "version": "[34.0.0, )"
+              "version": "[30.0.2, )"
             },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",

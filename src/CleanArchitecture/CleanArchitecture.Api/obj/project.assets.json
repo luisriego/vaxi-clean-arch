@@ -2,15 +2,15 @@
   "version": 3,
   "targets": {
     "net8.0": {
-      "Bogus/34.0.1": {
+      "Bogus/30.0.2": {
         "type": "package",
         "compile": {
-          "lib/net6.0/Bogus.dll": {
+          "lib/netstandard2.0/Bogus.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net6.0/Bogus.dll": {
+          "lib/netstandard2.0/Bogus.dll": {
             "related": ".xml"
           }
         }
@@ -883,19 +883,17 @@
     }
   },
   "libraries": {
-    "Bogus/34.0.1": {
-      "sha512": "49iq7QrD0wb7V4/FcK8p3dWdJxNUbojaqK9L6KRvdikIuRjt38EsNp7QXICcYdbYw01K8BHUdxlnTNn/YX3qDA==",
+    "Bogus/30.0.2": {
+      "sha512": "EhygcI3BnJZU1o6bQDmCaYg4WjvFpcmwUZO6UWdF72+0RF1rbXRVh9vTaev0TEszsrtlnd2W5QEK7x4xZiw3EQ==",
       "type": "package",
-      "path": "bogus/34.0.1",
+      "path": "bogus/30.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "bogus.34.0.1.nupkg.sha512",
+        "bogus.30.0.2.nupkg.sha512",
         "bogus.nuspec",
         "lib/net40/Bogus.dll",
         "lib/net40/Bogus.xml",
-        "lib/net6.0/Bogus.dll",
-        "lib/net6.0/Bogus.xml",
         "lib/netstandard1.3/Bogus.dll",
         "lib/netstandard1.3/Bogus.xml",
         "lib/netstandard2.0/Bogus.dll",
@@ -2519,7 +2517,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "Bogus >= 34.0.0",
+      "Bogus >= 30.0.2",
       "CleanArchitecture.Application >= 1.0.0",
       "CleanArchitecture.Infrastructure >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 8.0.0",
@@ -2582,7 +2580,7 @@
         "dependencies": {
           "Bogus": {
             "target": "Package",
-            "version": "[34.0.0, )"
+            "version": "[30.0.2, )"
           },
           "Microsoft.AspNetCore.OpenApi": {
             "target": "Package",
@@ -2627,17 +2625,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1603",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "CleanArchitecture.Api depende de Bogus (>= 34.0.0), mas Bogus 34.0.0 não foi encontrado. A melhor correspondência aproximada de Bogus 34.0.1 foi resolvida.",
-      "libraryId": "Bogus",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  }
 }
