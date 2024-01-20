@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchitecture.Applicati
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchitecture.Infrastructure", "src\CleanArchitecture\CleanArchitecture.Infrastructure\CleanArchitecture.Infrastructure.csproj", "{44FC38FE-EE70-49A9-BFAC-833A39183BDA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchitecture.Api", "src\CleanArchitecture\CleanArchitecture.Api\CleanArchitecture.Api.csproj", "{4554AB85-3C80-4BCD-B0C8-DD8CACCD3FC2}"
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,12 +48,25 @@ Global
 		{44FC38FE-EE70-49A9-BFAC-833A39183BDA}.Release|x64.Build.0 = Release|Any CPU
 		{44FC38FE-EE70-49A9-BFAC-833A39183BDA}.Release|x86.ActiveCfg = Release|Any CPU
 		{44FC38FE-EE70-49A9-BFAC-833A39183BDA}.Release|x86.Build.0 = Release|Any CPU
+		{4554AB85-3C80-4BCD-B0C8-DD8CACCD3FC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4554AB85-3C80-4BCD-B0C8-DD8CACCD3FC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4554AB85-3C80-4BCD-B0C8-DD8CACCD3FC2}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{4554AB85-3C80-4BCD-B0C8-DD8CACCD3FC2}.Debug|x64.Build.0 = Debug|Any CPU
+		{4554AB85-3C80-4BCD-B0C8-DD8CACCD3FC2}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4554AB85-3C80-4BCD-B0C8-DD8CACCD3FC2}.Debug|x86.Build.0 = Debug|Any CPU
+		{4554AB85-3C80-4BCD-B0C8-DD8CACCD3FC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4554AB85-3C80-4BCD-B0C8-DD8CACCD3FC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4554AB85-3C80-4BCD-B0C8-DD8CACCD3FC2}.Release|x64.ActiveCfg = Release|Any CPU
+		{4554AB85-3C80-4BCD-B0C8-DD8CACCD3FC2}.Release|x64.Build.0 = Release|Any CPU
+		{4554AB85-3C80-4BCD-B0C8-DD8CACCD3FC2}.Release|x86.ActiveCfg = Release|Any CPU
+		{4554AB85-3C80-4BCD-B0C8-DD8CACCD3FC2}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{BD54E84B-B211-47B7-BA79-41932A82AB9E} = {DC5B7547-6160-4025-8571-A5CF21250483}
 		{B7670ABC-8218-4A18-8E31-C3938CD9D285} = {BD54E84B-B211-47B7-BA79-41932A82AB9E}
 		{F5B86462-AD77-4682-91BE-E9F9DB114EF4} = {BD54E84B-B211-47B7-BA79-41932A82AB9E}
 		{44FC38FE-EE70-49A9-BFAC-833A39183BDA} = {BD54E84B-B211-47B7-BA79-41932A82AB9E}
+		{4554AB85-3C80-4BCD-B0C8-DD8CACCD3FC2} = {BD54E84B-B211-47B7-BA79-41932A82AB9E}
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
